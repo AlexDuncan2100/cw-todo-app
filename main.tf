@@ -42,9 +42,9 @@ resource "aws_instance" "managed_nodes" {
 }
 
 resource "aws_security_group" "tf-sec-gr" {
-  name = "project208-sec-gr"
+  name = "project208-sec-gracu"
   tags = {
-    Name = "project208-sec-gr"
+    Name = "project208-sec-gracu"
   }
 
   ingress {
